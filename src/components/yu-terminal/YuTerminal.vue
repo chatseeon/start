@@ -405,7 +405,7 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `欢迎来到Chatseeon的起始页，欢迎访问 csworldlet.top 了解更多</a>`
+      `欢迎来到Chatseeon的起始页(oﾟvﾟ)ノ 访问 csworldlet.top 了解更多</a>`
     );
     terminal.writeTextOutput(
       `输入 'help' 获取详细帮助，希望您在本页度过愉快时光`
