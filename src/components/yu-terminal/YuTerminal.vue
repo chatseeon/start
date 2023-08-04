@@ -405,12 +405,10 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `欢迎来到Chatseeon的起始页` +
-        `<a href="https://csworldlet.top/about/'> 关于我</a>`
+      `欢迎来到Chatseeon的起始页 + <a href="https://csworldlet.top/about/'> 关于我</a>`
     );
     terminal.writeTextOutput(
-      `我的其它网站 <a href="yard.csworldlet.top</a>` +
-        `: 输入 'help' 获取详细帮助，希望您在本页度过愉快时光`
+      `输入 'help' 获取详细帮助，希望您在本页度过愉快时光`
     );
     terminal.writeTextOutput("<br/>");
   }
