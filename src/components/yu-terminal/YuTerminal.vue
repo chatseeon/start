@@ -405,12 +405,12 @@ onMounted(() => {
     });
   } else {
     terminal.writeTextOutput(
-      `Welcome to YuIndex, coolest browser index for geeks!` +
-        `<a href="//github.com/liyupi/yuindex" target='_blank'> GitHub Open Source</a>`
+      `欢迎来到Chatseeon的起始页` +
+        `<a href="https://csworldlet.top/about/'> 关于我</a>`
     );
     terminal.writeTextOutput(
-      `Author <a href="//docs.qq.com/doc/DUFFRVWladXVjeUxW" target="_blank">coder_yupi</a>` +
-        `: please input 'help' to enjoy`
+      `我的其它网站 <a href="yard.csworldlet.top</a>` +
+        `: 输入 'help' 获取详细帮助，希望您在本页度过愉快时光`
     );
     terminal.writeTextOutput("<br/>");
   }
