@@ -5,7 +5,7 @@ const axios = require("axios");
  * @return {Promise<*[]>}
  */
 async function getRandomBackground() {
-  const api = "https://api.btstu.cn/sjbz/api.php?lx=dongman&format=json";
+  const api = "https://moe.anosu.top/api/?sort=1080p";
   return await axios.get(api).then((res) => res.data.imgurl);
 }
 
